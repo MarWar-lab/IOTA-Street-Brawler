@@ -1,23 +1,20 @@
 # IOTA Street Brawler
 
-On-chain Tamagotchi fighter built on IOTA Move.
+Production-ready React + IOTA dApp Kit frontend for an on-chain Tamagotchi fighter game, plus the Move package.
 
-## Features
+## Repo layout
 
-- On-chain player progression
-- Staking arena matches
-- Weapon marketplace
-- Web3 wallet integration via IOTA dApp Kit
+- `frontend/` — Vite + React + TypeScript dApp
+- `move/` — Move package (publish to IOTA)
 
-## Stack
-
-- React + Vite
-- IOTA dApp Kit
-- IOTA Move smart contracts
-- TypeScript
-
-## Setup
+## Frontend quickstart
 
 ```bash
+cd frontend
 npm install
 npm run dev
+```
+
+Then in the app, set:
+- Package ID
+- Shared object IDs (Clock, Random, ArenaState, MarketState) as needed

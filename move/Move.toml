@@ -1,0 +1,11 @@
+[package]
+name = "street_brawler"
+version = "0.2.0"
+edition = "2024.beta"
+
+[addresses]
+street_brawler = "0x0"
+
+[dependencies]
+Iota = { git = "https://github.com/iotaledger/iota.git", subdir = "crates/iota-framework/packages/iota" }
+MoveStdlib = { git = "https://github.com/iotaledger/iota.git", subdir = "crates/iota-framework/packages/move-stdlib" }
